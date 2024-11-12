@@ -1,0 +1,111 @@
+@font-face {
+    font-family: 'Poppins-Medium';
+    src: url('./Assets/Fonts/Poppins-Medium.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins-Regular';
+    src: url('./Assets/Fonts/Poppins-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter-Bold';
+    src: url('./Assets/Fonts/Inter_24pt-Bold.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    background-color: #35374B;
+    margin:0;
+}
+
+input:hover{   
+    border-color: #104c7e;
+}
+
+
+input{
+    font-family: 'Poppins-Medium', sans-serif;
+    align-self: center;
+    height: 6svh;
+    width: 100%;
+    font-size: 20px;
+    padding-left: 15px;
+    color: #ACA7A7;
+    background-color: transparent;
+    border-radius: 5px;
+    border-color: #64C3BF;
+    border-width: 3px;
+    border-style: solid;
+    margin: 1rem auto;
+}
+
+h1{
+    text-align: center;
+    font-weight: bolder;
+    font-family: 'Inter-Bold', sans-serif;
+    font-size: 5rem;
+    color: #64C3BF;
+    margin: 3rem auto;
+}
+
+#text1{
+    font-family: 'Poppins-Regular', sans-serif;
+    align-self: center;
+    font-size: 15px;
+    margin-top: 15px;
+    font-weight: lighter;
+    margin-bottom: 8px;
+    color: white;
+}
+
+#text2{
+    font-family: 'Poppins-Regular', sans-serif;
+    align-self: center;
+    font-size: 15px;
+    margin-top: 0px;
+    font-weight: lighter;
+    margin-bottom: 5px;
+    color:white;
+}
+
+#alink{
+    color: #64C3BF;
+    font-weight: lighter;
+}
+
+.TermsText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+form{
+    width: 60vw;
+    margin: 0 auto;
+    padding-bottom: 2em;
+}
+
+input[type="submit"] {
+    font-family: 'Poppins-Medium', sans-serif;
+    align-self: center;
+    height: 6svh;
+    width: 35%;
+    font-size: 20px;
+    color: #FFFF;
+    background-color: #64C3BF;
+    border-radius: 5px;
+    border-color: #64C3BF;
+    border-width: 3px;
+    border-style: solid;
+    margin: 1em auto;
+    display: flex;
+    justify-content: center;
+}
+
+
