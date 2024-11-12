@@ -28,7 +28,10 @@ header{
 
 .BodyCustomer {
     background-color: #35374B;
+    display: flex;
+    flex-direction: column;
     margin:0;
+    align-items: center;
 }
 
 .BodyWorker{
@@ -58,6 +61,7 @@ header{
 }
 
 header{
+    height: 15svh;
     display: flex;
     background-color: #50727B;
 }
@@ -92,8 +96,11 @@ li{
 }
 
 .content{
-    margin: 28vh 30vw;
-
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 15svh;
+    padding-top: 5svh;
 }
 
 .circle-outline {
@@ -167,14 +174,12 @@ li{
     margin: auto 1.5rem;
 }
 
-
-
 #container{
     background-color: #50727B;
     border-style: none;
     cursor: pointer;
     display: flex;
-    margin: 1rem auto;
+    margin: auto;
 }
 
 #switchImg{
@@ -193,8 +198,6 @@ li{
 #containerWorker{
     background-color: #000000;
     border-style: none;
-    cursor: pointer;
-    display: flex;
     margin: 1rem auto;
 }
 
@@ -286,6 +289,12 @@ input:active{
    border-radius: 20px;
    border: none;
    display: flex;
-   margin: auto auto;
+   margin-top: 10px;
    cursor: pointer;
+}
+
+#log-out:hover{
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
 }

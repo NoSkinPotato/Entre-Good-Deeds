@@ -36,7 +36,14 @@
         <label for="email">Email<input class="input-customer" type="email" name="email" id="email" value="example@gmail.com"></label>
         <label for="phone">Phone Number<input class="input-customer" type="text" name="phone" id="phone" value="08179846537"></label>
         <label for="address">Address<input class="input-customer" type="text" name="address" id="address" value="Kebon Jeruk, Jakarta Barat"></label> 
+        <button id="log-out">Log Out</a></button>
     </div>  
-    <button id="log-out">Log Out</a></button>
+    
+
+    <script>
+        document.getElementById("log-out").addEventListener("click", function() {
+            window.location.href = "../FirstMenu.html";
+        });
+    </script>
 </body>
 </html>

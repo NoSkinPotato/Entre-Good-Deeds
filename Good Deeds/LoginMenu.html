@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Good Deeds</title>
-    <link rel="stylesheet" href="StyleSheet/PreMenuStyle.css">
+    <link rel="stylesheet" href="./StyleSheet/PreMenuStyle.css">
 </head>
 <body>
     <div class="imageContainer">
-        <img id="goodDeeds" src="../Assets/SplashScreen/Logo (1).png" alt="Logo">
+        <img id="goodDeeds" src="./Assets/SplashScreen/Logo (1).png" alt="Logo">
     </div>
 
     <div class="input">
@@ -23,9 +23,16 @@
 
         </div>
         <button id="loginButton">Login</button>
-        <h4 id="text1">By continuing you are agreeing our <a id="alink" href="http://" target="_blank" rel="noopener noreferrer">terms & conditions</a> and our privacy polices</h4>
-        <h4 id="text2">Don’t Have Account? <a id="alink" href="http://" target="_blank" rel="noopener noreferrer">Sign Up</a></h4> 
+        <h4 id="text1">By continuing you are agreeing our <a id="alink" href="http://" rel="noopener noreferrer">terms & conditions</a> and our privacy polices</h4>
+        <h4 id="text2">Don’t Have Account? <a id="alink" href="./SignUp.html" rel="noopener noreferrer">Sign Up</a></h4> 
     </div>
+
+    <script>
+        document.getElementById("loginButton").addEventListener("click", function() {
+            window.location.href = "Customer-Side/HomeCustomer.html";
+        });
+
+    </script>
     
 </body>
 </html>

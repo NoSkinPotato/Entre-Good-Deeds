@@ -3,24 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="SignUpStyle.css">
+    <link rel="stylesheet" href="./StyleSheet/SignUpStyle.css">
     <title>Good Deeds</title>
 </head>
 <body>
-    <h1>Create Account</h1>
-    <form action=""> 
+    <h1 id="Create">Create Account</h1>
+    <div class="inputFields">
         <input id="firstNameInput" type="text" name="firstname" placeholder="First Name">
         <input id="LastNameInput" type="text" name="lastname" placeholder="Last Name">
         <input id="emailInput" type="text" name="email" placeholder="Email">
-        <input id="phoneInput" type="number" name="phone" placeholder="Phone Number">
+        <input id="phoneInput" type="text" name="phone" placeholder="Phone Number">
         <input id="passInput" type="password" name="pass" placeholder="Password">
         <input id="confirmPassInput" type="password" name="confirmPass" placeholder="Confirm Password">
-        <input type="submit" value="Submit">
+        <button id="submit">Submit</button>
         <div class="TermsText">
-            <h4 id="text1">By continuing you are agreeing our <a id="alink" href="http://" target="_blank" rel="noopener noreferrer">terms & conditions</a> and our privacy polices</h4>
-            <h4 id="text2">Already have an account? <a id="alink" href="http://" target="_blank" rel="noopener noreferrer">Log in</a></h4>           
+            <h4 id="text1">By continuing you are agreeing our <a id="alink" href="http://" rel="noopener noreferrer">terms & conditions</a> and our privacy polices</h4>
+            <h4 id="text2">Already have an account? <a id="alink" href="./LoginMenu.html" rel="noopener noreferrer">Log in</a></h4>           
         </div>
-    </form>
+    </div>  
+    
+    <script>
+        document.getElementById("submit").addEventListener("click", function() {
+            
+            window.location.href = "Customer-Side/HomeCustomer.html";
+        });
+    </script>
 
 </body>
 </html>
