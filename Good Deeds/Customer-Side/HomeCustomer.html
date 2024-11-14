@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home | Good Deeds</title>
     <link rel="stylesheet" href="../StyleSheet/MainTheme.css">
+    <link rel="stylesheet" href="../StyleSheet/JobList.css">
+    <script type="module" src="../Scripts/jobScript.js"></script>
 </head>
 <body class="BodyCustomer">
     <header>
@@ -16,7 +18,7 @@
                 <li><a class="navigation" href="HomeCustomer.html">Home</a></li>
                 <li><a class="navigation" href="LogsCustomer.html">Logs</a></li>
                 <li><a class="navigation" href="ProfileCustomer.html">Profile</a></li>
-                <li><a class="navigation" href="ChatCustomer.html">Chat</a></li>
+                <li><a class="navigation" href="//_blank">Chat</a></li>
             </ul>
         </nav>
         <div class="RightContainer">
@@ -25,9 +27,22 @@
         </div>
     </header>
 
-    <div class="content">
+    <!-- <div class="content">
         <h1 id="greetings"> Hi Alverino, <br>Do you need help? <br>Post a job for <br>others to see</h1>
         <button id="containerCustomer"><div class="circle-outline"></div></button>
+    </div> -->
+
+    <div id="job-list-container">
+        <div id="job-item">
+            <div id="job-left">
+                <h3 id="job-title">cibai</h3>
+                <h5 id="job-distance">5km away</h5>
+                <h6 id="job-descr">jabba jabba</h6>
+            </div>
+            
+            <button id="job-dtl-btn">Details</button>
+        </div>
     </div>
+    
 </body>
 </html>

@@ -28,10 +28,7 @@ header{
 
 .BodyCustomer {
     background-color: #35374B;
-    display: flex;
-    flex-direction: column;
     margin:0;
-    align-items: center;
 }
 
 .BodyWorker{
@@ -235,7 +232,7 @@ li{
 .profile-attributes{
     display: flex;
     flex-direction: column;
-    margin: 5rem 45vh;
+    margin: 4rem 45vh;
     align-items: center;
     gap: 20px;
 }
