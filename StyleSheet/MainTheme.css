@@ -24,6 +24,9 @@ header{
     position: fixed;
     width: 100%;
     top: 0;
+    bottom: 0;
+    height: auto;
+    padding-bottom: 5svh;
 }
 
 .BodyCustomer {
@@ -161,6 +164,9 @@ li{
     display: flex;
     margin-left: auto;
     margin-right: 3rem;
+    margin-top: 1rem;
+    background-color: #000000;
+    
 }
 
 #RoleSwitch{
@@ -169,14 +175,14 @@ li{
     color: #EEE4B1;
     display: flex;
     margin: auto 1.5rem;
+    background-color: #50727B;
+    width: 100%;
 }
 
 #container{
-    background-color: #50727B;
     border-style: none;
     cursor: pointer;
-    display: flex;
-    margin: auto;
+    
 }
 
 #switchImg{
@@ -199,14 +205,14 @@ li{
 }
 
 .profile-container{
-    height: 25vh;
+    height: 30vh;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     border-radius: 0 0 30px 30px;
     background-color: #64C3BF;
-    margin-top: 7.5rem;
+    margin-top: 5rem;
 }
 
 #profile-picture{
